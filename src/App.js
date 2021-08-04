@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MovieCardsList from './MovieCardsList';
@@ -92,7 +92,7 @@ const movies = {
   },
 };
 
-class App extends Component {
+function App(){
   render() {
     return (
       <div>
