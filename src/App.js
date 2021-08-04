@@ -93,7 +93,6 @@ const movies = {
 };
 
 function App(){
-  render() {
     return (
       <div>
         <header className="App-header">
@@ -104,7 +103,6 @@ function App(){
         <MovieCardsList profiles={profiles} movies={movies} users={users} />
       </div>
     );
-  }
 }
 
 export default App;
